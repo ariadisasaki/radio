@@ -5,11 +5,11 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Radio Stream</title>
+<title>Radio Streaming</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -17,12 +17,9 @@
 
 <div class="container">
 
-<!-- HEADER + SEARCH STICKY -->
-<div class="topbar">
-
 <header>
 
-<h2>📻 Radio Stream</h2>
+<h1>📻 RADIO STREAM</h1>
 
 <p>Live Streaming Radio</p>
 
@@ -30,6 +27,7 @@
 
 
 <!-- PLAYER -->
+
 <div class="player">
 
 <div class="player-info">
@@ -38,16 +36,13 @@
 
 <div>
 
-<div id="player-title">Belum diputar</div>
+<div id="playerTitle">Pilih Channel</div>
 
-<div class="equalizer">
-
-<span></span>
+<div class="equalizer hidden" id="equalizer">
 
 <span></span>
-
 <span></span>
-
+<span></span>
 <span></span>
 
 </div>
@@ -58,7 +53,11 @@
 
 <div class="controls">
 
-<button onclick="togglePlay()">▶</button>
+<button onclick="prevChannel()">⏮</button>
+
+<button onclick="togglePlay()" id="playBtn">▶</button>
+
+<button onclick="nextChannel()">⏭</button>
 
 </div>
 
@@ -66,59 +65,28 @@
 
 
 <!-- SEARCH -->
+
 <div class="search">
 
-<input 
-type="text" 
-id="searchInput" 
-placeholder="Cari channel..."
-onkeyup="searchChannel()">
+<input id="search" placeholder="Cari channel radio">
 
 </div>
-
-</div>
-
 
 
 <!-- CHANNEL LIST -->
 
-<div class="channel-grid" id="channelGrid">
-
-<div class="channel" data-name="RDI" data-url="URL_STREAM_1" onclick="playChannel(0)">
-RDI
-</div>
-
-<div class="channel" data-name="PPI" data-url="URL_STREAM_2" onclick="playChannel(1)">
-PPI
-</div>
-
-<div class="channel" data-name="POP" data-url="URL_STREAM_3" onclick="playChannel(2)">
-POP
-</div>
-
-<div class="channel" data-name="ROCK" data-url="URL_STREAM_4" onclick="playChannel(3)">
-ROCK
-</div>
-
-<div class="channel" data-name="JAZZ" data-url="URL_STREAM_5" onclick="playChannel(4)">
-JAZZ
-</div>
-
-<div class="channel" data-name="DANGDUT" data-url="URL_STREAM_6" onclick="playChannel(5)">
-DANGDUT
-</div>
+<div id="channels" class="channel-grid"></div>
 
 </div>
 
-
-</div>
-
-
-<!-- AUDIO ENGINE -->
 
 <audio id="audio"></audio>
 
-<script src="script.js"></script>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/player.js"></script>
+<script src="js/search.js"></script>
 
 </body>
 
