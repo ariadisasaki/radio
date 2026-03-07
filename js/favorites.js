@@ -1,17 +1,17 @@
-function toggleFavorite(id){
+function saveFavorite(ch){
 
-let fav=JSON.parse(localStorage.getItem("fav")||"[]")
+let fav=JSON.parse(localStorage.getItem("favorites")||"[]")
 
-if(fav.includes(id)){
+let exist=fav.find(f=>f.id===ch.id)
 
-fav=fav.filter(f=>f!==id)
+if(!exist){
 
-}else{
-
-fav.push(id)
+fav.push(ch)
 
 }
 
-localStorage.setItem("fav",JSON.stringify(fav))
+localStorage.setItem("favorites",JSON.stringify(fav))
+
+alert("Channel disimpan ke favorite")
 
 }
