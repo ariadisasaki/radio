@@ -1,1 +1,1 @@
-const API_URL = "https://radio.ariadishut.workers.dev";
+const API="https://radio.ariadishut.workers.dev"
