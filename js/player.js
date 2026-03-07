@@ -1,42 +1,48 @@
-const audio=document.getElementById("audio")
+const audio = document.getElementById("audio")
 
-const playerBar=document.getElementById("playerBar")
+const playerTitle = document.getElementById("playerTitle")
 
-const playerTitle=document.getElementById("playerTitle")
+const playBtn = document.getElementById("playBtn")
 
-const playBtn=document.getElementById("playBtn")
+const equalizer = document.getElementById("equalizer")
 
-const equalizer=document.getElementById("equalizer")
+let currentIndex = -1
 
-let activeCard=null
 
-function playChannel(ch,card){
 
-audio.src=API_PLAY+"?id="+ch.id
+/* PLAY CHANNEL */
+
+function playChannel(ch,card,index){
+
+audio.src = API_PLAY + "?id=" + ch.id
 
 audio.play()
 
-playerBar.classList.remove("hidden")
+playerTitle.innerText = ch.name
 
-playerTitle.innerText=ch.name
+playBtn.innerText = "⏸"
 
 equalizer.classList.remove("hidden")
 
-playBtn.innerText="⏸"
+currentIndex = index
 
-if(activeCard){
-
-activeCard.classList.remove("active")
+localStorage.setItem("lastChannel",index)
 
 }
 
-card.classList.add("active")
 
-activeCard=card
 
-}
+/* PLAY / PAUSE */
 
 function togglePlay(){
+
+if(currentIndex === -1 && channels.length>0){
+
+playChannel(channels[0],null,0)
+
+return
+
+}
 
 if(audio.paused){
 
@@ -57,3 +63,57 @@ equalizer.classList.add("hidden")
 }
 
 }
+
+
+
+/* NEXT CHANNEL */
+
+function nextChannel(){
+
+currentIndex++
+
+if(currentIndex>=channels.length){
+
+currentIndex=0
+
+}
+
+playChannel(channels[currentIndex],null,currentIndex)
+
+}
+
+
+
+/* PREVIOUS CHANNEL */
+
+function prevChannel(){
+
+currentIndex--
+
+if(currentIndex<0){
+
+currentIndex=channels.length-1
+
+}
+
+playChannel(channels[currentIndex],null,currentIndex)
+
+}
+
+
+
+/* AUTO LOAD LAST CHANNEL */
+
+window.addEventListener("load",()=>{
+
+let last=localStorage.getItem("lastChannel")
+
+if(last!==null && channels.length>0){
+
+currentIndex=parseInt(last)
+
+playChannel(channels[currentIndex],null,currentIndex)
+
+}
+
+})
