@@ -3,7 +3,9 @@
 
 <head>
 
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Radio Streaming</title>
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -11,27 +13,24 @@
 
 <body>
 
+<div class="app">
+
 <div class="player">
 
-<div class="radio-header">
+<div class="cover">
 
-<div class="radio-cover">
-
-Radio
-
-<div id="equalizer" class="equalizer hidden">
-
+<div class="equalizer hidden" id="equalizer">
 <span></span>
 <span></span>
 <span></span>
-
+<span></span>
 </div>
 
 </div>
 
-<div>
+<div class="meta">
 
-<h1>Streaming Radio</h1>
+<h1 id="title">Radio Streaming</h1>
 
 <div id="tanggal"></div>
 
@@ -39,13 +38,11 @@ Radio
 
 </div>
 
-</div>
-
 <div class="controls">
 
 <button onclick="prevChannel()">⏮</button>
 
-<button onclick="togglePlay()">▶</button>
+<button onclick="togglePlay()" id="playBtn">▶</button>
 
 <button onclick="nextChannel()">⏭</button>
 
@@ -53,29 +50,28 @@ Radio
 
 </div>
 
-<input id="search" placeholder="Cari channel...">
 
-<div class="channel-wrapper">
+<input id="search" placeholder="Cari radio...">
 
-<div id="channels"></div>
+
+<div class="channel-list" id="channels"></div>
 
 </div>
 
-<div id="miniPlayer" class="mini hidden">
 
-<span id="miniTitle"></span>
+<div class="mini-player hidden" id="miniPlayer">
+
+<div id="miniTitle"></div>
 
 <button onclick="togglePlay()">▶</button>
 
 </div>
 
+
 <script src="js/config.js"></script>
-<script src="js/player.js"></script>
 <script src="js/app.js"></script>
+<script src="js/player.js"></script>
 <script src="js/clock.js"></script>
-<script src="js/search.js"></script>
-<script src="js/favorites.js"></script>
-<script src="js/visualizer.js"></script>
 
 </body>
 
