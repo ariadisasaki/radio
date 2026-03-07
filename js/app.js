@@ -3,15 +3,18 @@ const container=document.getElementById("channels")
 let channels=[]
 
 fetch(API_CHANNELS)
-
 .then(res=>res.json())
-
 .then(data=>{
 
-channels=data.channels
+// support dua format JSON
+
+channels=data.channels || data
 
 renderChannels(channels)
 
+})
+.catch(err=>{
+console.log("API ERROR",err)
 })
 
 
@@ -28,7 +31,6 @@ card.className="channel"
 card.innerHTML=`
 
 <h3>${ch.name}</h3>
-
 <p>${ch.artist}</p>
 
 `
