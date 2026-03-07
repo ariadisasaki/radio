@@ -3,7 +3,7 @@
 
 <head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Radio Streaming</title>
 
@@ -13,65 +13,55 @@
 
 <body>
 
-<div class="app">
+<header>
 
-<div class="player">
+<h1>📻 RADIO STREAM</h1>
 
-<div class="cover">
+<p>Live Streaming Radio</p>
+
+</header>
+
+<div class="search">
+
+<input id="search" placeholder="Cari channel radio">
+
+</div>
+
+<div id="channels" class="channel-grid"></div>
+
+<div id="playerBar" class="player hidden">
+
+<div class="player-left">
+
+<div class="player-logo">📻</div>
+
+<div>
+
+<div id="playerTitle">Tidak ada channel</div>
 
 <div class="equalizer hidden" id="equalizer">
+
 <span></span>
 <span></span>
 <span></span>
 <span></span>
+
 </div>
 
 </div>
 
-<div class="meta">
-
-<h1 id="title">Radio Streaming</h1>
-
-<div id="tanggal"></div>
-
-<div id="jam"></div>
-
 </div>
-
-<div class="controls">
-
-<button onclick="prevChannel()">⏮</button>
 
 <button onclick="togglePlay()" id="playBtn">▶</button>
 
-<button onclick="nextChannel()">⏭</button>
-
 </div>
 
-</div>
-
-
-<input id="search" placeholder="Cari radio...">
-
-
-<div class="channel-list" id="channels"></div>
-
-</div>
-
-
-<div class="mini-player hidden" id="miniPlayer">
-
-<div id="miniTitle"></div>
-
-<button onclick="togglePlay()">▶</button>
-
-</div>
-
+<audio id="audio"></audio>
 
 <script src="js/config.js"></script>
 <script src="js/app.js"></script>
 <script src="js/player.js"></script>
-<script src="js/clock.js"></script>
+<script src="js/search.js"></script>
 
 </body>
 
