@@ -3,14 +3,38 @@
     {
       "id":"radio_rdi",
       "name":"RADIO DANGDUT INDONESIA",
-      "artist":"RDI JAKARTA",
+      "artist":"",
       "stream":"https://free.rcast.net/8328"
     },
     {
       "id":"radio_ppi",
       "name":"RADIO PPI DUNIA",
-      "artist":"PPI DUNIA",
+      "artist":"",
       "stream":"https://radioppi.uplandlotim.workers.dev/"
+    },
+    {
+      "id":"radio_muara",
+      "name":"RADIO MUARA JAKARTA",
+      "artist":"",
+      "stream":"https://ssg.streamingmurah.com:8778/;"
+    },
+	{
+      "id":"radio_v",
+      "name":"V RADIO JAKARTA",
+      "artist":"",
+      "stream":"http://202.147.199.100:8000/;"
+    },
+	{
+      "id":"radio_dreamers",
+      "name":"DREAMERS RADIO JAKARTA",
+      "artist":"",
+      "stream":"https://live.dreamers.id:8443/live"
+    },
+	{
+      "id":"radio_dreamers",
+      "name":"SONORA FM JAKARTA",
+      "artist":"",
+      "stream":"https://cast1.my-control-panel.com/proxy/radioso1/stream"
     }
   ]
 }
