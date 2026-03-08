@@ -1,64 +1,76 @@
 {
   "channels":[
     {
-      "id":"radio_rdi",
+      "id":"r1",
       "name":"RADIO DANGDUT INDONESIA",
       "artist":"",
       "stream":"https://free.rcast.net/8328"
     },
     {
-      "id":"radio_ppi",
+      "id":"r2",
       "name":"RADIO PPI DUNIA",
       "artist":"",
       "stream":"https://radioppi.uplandlotim.workers.dev/"
     },
     {
-      "id":"radio_muara",
+      "id":"r3",
       "name":"RADIO MUARA JAKARTA",
       "artist":"",
       "stream":"https://ssg.streamingmurah.com:8778/stream"
     },
 	{
-      "id":"radio_v",
+      "id":"r4",
       "name":"V RADIO JAKARTA",
       "artist":"",
       "stream":"http://202.147.199.100:8000/stream"
     },
 	{
-      "id":"radio_dreamers",
+      "id":"r5",
       "name":"DREAMERS RADIO JAKARTA",
       "artist":"",
       "stream":"https://live.dreamers.id:8443/live"
     },
 	{
-      "id":"radio_sonora",
+      "id":"r6",
       "name":"SONORA FM JAKARTA",
       "artist":"",
       "stream":"https://cast1.my-control-panel.com/proxy/radioso1/live"
     },
 	{
-      "id":"radio_sonoradj",
+      "id":"r7",
       "name":"SONORA DJFM JAKARTA",
       "artist":"",
       "stream":"https://cast1.my-control-panel.com/proxy/radioso1/autodj"
     },
 	{
-      "id":"radio_kita",
+      "id":"r8",
       "name":"RADIO KITA BANDUNG",
       "artist":"",
       "stream":"https://radiokita.radio.yufid.com/;"
     },
 	{
-      "id":"radio_star",
+      "id":"r9",
       "name":"STAR RADIO BANDUNG",
       "artist":"",
       "stream":"http://listen.staradio1073fm.net:8070/stream"
     },
 	{
-      "id":"kita_cirebon",
+      "id":"r10",
       "name":"RADIO KITA CIREBON",
       "artist":"",
       "stream":"http://live.radiosunnah.net/stream"
+    },
+	{
+      "id":"r11",
+      "name":"RADIO RJFM SUKABUMI",
+      "artist":"",
+      "stream":"https://a4.siar.us/listen/rjfm/rjfm"
+    },
+	{
+      "id":"r12",
+      "name":"RETJO BUNTUNG JOGJA",
+      "artist":"",
+      "stream":"http://scg.streamingmurah.com:9940/stream"
     }
   ]
 }
