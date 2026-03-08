@@ -22,25 +22,25 @@
       "id":"radio_v",
       "name":"V RADIO JAKARTA",
       "artist":"",
-      "stream":"http://202.147.199.100:8000/;"
+      "stream":"https://proxystream.ariadishut.workers.dev/?url=http://202.147.199.100:8000/;"
     },
 	{
       "id":"radio_dreamers",
       "name":"DREAMERS RADIO JAKARTA",
       "artist":"",
-      "stream":"https://live.dreamers.id:8443/live"
+      "stream":"https://proxystream.ariadishut.workers.dev/?url=https://live.dreamers.id:8443/live"
     },
 	{
       "id":"radio_dreamers",
       "name":"SONORA FM JAKARTA",
       "artist":"",
-      "stream":"https://cast1.my-control-panel.com/proxy/radioso1/stream"
+      "stream":"https://proxystream.ariadishut.workers.dev/?url=https://cast1.my-control-panel.com/proxy/radioso1/stream"
     },
 	{
       "id":"radio_kita",
       "name":"RADIO KITA BANDUNG",
       "artist":"",
-      "stream":"https://radiokita.radio.yufid.com/;"
+      "stream":"https://proxystream.ariadishut.workers.dev/?url=https://radiokita.radio.yufid.com/;"
     },
 	{
       "id":"radio_star",
@@ -52,7 +52,7 @@
       "id":"kita_cirebon",
       "name":"RADIO KITA CIREBON",
       "artist":"",
-      "stream":"http://live.radiosunnah.net/;"
+      "stream":"https://proxystream.ariadishut.workers.dev/?url=http://live.radiosunnah.net/;"
     }
   ]
 }
