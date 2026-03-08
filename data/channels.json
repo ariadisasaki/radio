@@ -71,6 +71,144 @@
       "name":"RETJO BUNTUNG JOGJA",
       "artist":"",
       "stream":"http://scg.streamingmurah.com:9940/stream"
+    },
+	{
+      "id":"r13",
+      "name":"SUARA QURÁN KARANGANYAR",
+      "artist":"",
+      "stream":"http://live.mp3quran.net:9784/stream"
+    },
+	{
+      "id":"r14",
+      "name":"BASS FM SALATIGA",
+      "artist":"",
+      "stream":"https://bassfm.radio.yufid.com/;"
+    },
+	{
+      "id":"r15",
+      "name":"ERLISA FM SALATIGA",
+      "artist":"",
+      "stream":"https://a4.siar.us/radio/8360/radio.mp3"
+    },
+	{
+      "id":"r16",
+      "name":"M RADIO SURABAYA",
+      "artist":"",
+      "stream":"https://c4.siar.us:8026/stream"
+    },
+	{
+      "id":"r17",
+      "name":"KISS FM JEMBER",
+      "artist":"",
+      "stream":"https://i.klikhost.com/8894/stream"
+    },
+	{
+      "id":"r18",
+      "name":"ROSALINA FM JEMBER",
+      "artist":"",
+      "stream":"https://i.klikhost.com/8618/stream"
+    },
+	{
+      "id":"r19",
+      "name":"GEMA SURYA PONOROGO",
+      "artist":"",
+      "stream":"https://r5.siar.us:9420/aac.m4a?_=1"
+    },
+	{
+      "id":"r20",
+      "name":"SMART FM MANADO",
+      "artist":"",
+      "stream":"https://cast2.my-control-panel.com/proxy/radios14/stream"
+    },
+	{
+      "id":"r21",
+      "name":"TRENDY FM MANADO",
+      "artist":"",
+      "stream":"https://i.klikhost.com/8018/stream"
+    },
+	{
+      "id":"r22",
+      "name":"KUMALA FM SAMARINDA",
+      "artist":"",
+      "stream":"https://ina.vinhostmedia.com:8000/kumalaradio"
+    },
+	{
+      "id":"r23",
+      "name":"PARAS FM SAMARINDA",
+      "artist":"",
+      "stream":"https://ina.vinhostmedia.com:8000/parasfmsmd"
+    },
+	{
+      "id":"r24",
+      "name":"SMART FM BALIKPAPAN",
+      "artist":"",
+      "stream":"https://cast3.asurahosting.com/proxy/radios32/stream"
+    },
+	{
+      "id":"r25",
+      "name":"RADIO SUARA BANJARMASIN",
+      "artist":"",
+      "stream":"http://103.136.182.117:8000/stream"
+    },
+	{
+      "id":"r26",
+      "name":"RADIO SUN BANJARMASIN",
+      "artist":"",
+      "stream":"https://a1.siar.us/radio/8440/radio.mp3"
+    },
+	{
+      "id":"r27",
+      "name":"RADIO SUSHI PADANG",
+      "artist":"",
+      "stream":"https://stream2.jejestreaming.com:9200/stream"
+    },
+	{
+      "id":"r28",
+      "name":"SERUMPUN RADIO BATAM",
+      "artist":"",
+      "stream":"https://a2.siar.us:8020/radio.mp3"
+    },
+	{
+      "id":"r29",
+      "name":"RADIO TRIRAMA LAMPUNG",
+      "artist":"",
+      "stream":"http://i.klikhost.com:8706/;"
+    },
+	{
+      "id":"r30",
+      "name":"RADIO GLOBAL FM",
+      "artist":"",
+      "stream":"http://202.147.199.98/stream"
+    },
+	{
+      "id":"r31",
+      "name":"RADIO ELSHINTA",
+      "artist":"",
+      "stream":"https://stream-ssl.arenastreaming.com:8000/jakarta"
+    },
+	{
+      "id":"r32",
+      "name":"SINDO TRIJAYA",
+      "artist":"",
+      "stream":"http://202.147.199.101:8000/stream"
+    },
+	{
+      "id":"r33",
+      "name":"SUARA SONETA",
+      "artist":"",
+      "stream":"https://a2.siar.us/listen/suarasoneta/radio.mp3"
+    },
+	{
+      "id":"r34",
+      "name":"RADIO TSANIA FM",
+      "artist":"",
+      "stream":"https://a10.siar.us:8280/radio.mp3"
+    },
+	{
+      "id":"r35",
+      "name":"RADIO MINHAJUS SALIHIN",
+      "artist":"",
+      "stream":"http://scg.streamingmurah.com:8170/stream"
     }
   ]
 }
