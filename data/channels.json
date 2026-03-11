@@ -13,6 +13,18 @@
       "stream":"https://radioppi.uplandlotim.workers.dev/"
     },
     {
+      "id":"rripro2",
+      "name":"RRI PRO 2 MATARAM",
+      "artist":"",
+      "stream":"https://radioppi.uplandlotim.workers.dev/"
+    },
+    {
+      "id":"saturadio",
+      "name":"SATU RADIO LOMBOK",
+      "artist":"",
+      "stream":"https://assunnah.radio.yufid.com/;"
+    },
+    {
       "id":"r3",
       "name":"RADIO MUARA JAKARTA",
       "artist":"",
@@ -106,7 +118,7 @@
       "id":"r18",
       "name":"ROSALINA FM JEMBER",
       "artist":"",
-      "stream":"https://i.klikhost.com/8618/stream"
+      "stream":"https://i.klikhost.com/8618/;stream.aac"
     },
 	{
       "id":"r19",
